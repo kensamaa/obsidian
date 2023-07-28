@@ -47,12 +47,8 @@
             "id": "95d9a4453a633897",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/Summarry.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -122,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Summarry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/Summarry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Go/Summarry.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -185,13 +177,13 @@
   },
   "active": "95d9a4453a633897",
   "lastOpenFiles": [
+    "Go/Functions.md",
+    "Go/Pointers.md",
+    "Go/Summarry.md",
+    "Go/Dependency Injection.md",
     "Go/Declaration.md",
     "Go/array and data types.md",
-    "Go/Functions.md",
-    "Go/Summarry.md",
     "Untitled.canvas",
-    "Go/Pointers.md",
-    "Go/Dependency Injection.md",
     "GO.md",
     "Go",
     "Untitled 1"

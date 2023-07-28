@@ -12,4 +12,4 @@ ip= &x //ip points to x
 y= *ip //y is now 1
 ```
 alternate way to create a variable 
-new() functions create a variable and returns a pointer to the variable
+new() [[Functions]] create a variable and returns a pointer to the variable

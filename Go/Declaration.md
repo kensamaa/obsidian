@@ -13,7 +13,7 @@ s="string"
 ### short declaration
 
 can perform a declaration and initialization together 
-can only do this in a function
+can only do this in a [[Functions]]
 ```go
 x:=100
 ```

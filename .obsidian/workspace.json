@@ -30,29 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "284d96f4335ca6ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/Declaration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95d9a4453a633897",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 207.5
   },
   "right": {
     "id": "881505964f412768",
@@ -118,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Go/array and data types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Go/array and data types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Go/array and data types.md"
+              }
             }
           }
         ]
@@ -175,14 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "95d9a4453a633897",
+  "active": "f15f8c3dfe527c5a",
   "lastOpenFiles": [
-    "Go/Functions.md",
-    "Go/Pointers.md",
-    "Go/Summarry.md",
-    "Go/Dependency Injection.md",
+    "Pasted image 20230801230841.png",
+    "Pasted image 20230801230749.png",
     "Go/Declaration.md",
     "Go/array and data types.md",
+    "Pasted image 20230801225818.png",
+    "Pasted image 20230801215957.png",
+    "Pasted image 20230801215951.png",
+    "Go/Summarry.md",
+    "Go/Functions.md",
+    "Go/Pointers.md",
+    "Go/Dependency Injection.md",
     "Untitled.canvas",
     "GO.md",
     "Go",

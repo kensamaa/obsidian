@@ -29,7 +29,7 @@ var books = [5]int =[5]{1,2,3,4,5}
 ### Iterate on the array
 ```go
 x:=[3]int={1,2,3}
-for i ,v in range x {
+for i ,v :=     range x {
 fmt.Printf("ind %d,val %d",i,v)
 }
 ```

@@ -30,9 +30,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1c8bc2f0957f69ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Go/array and data types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "edfa7755b097a7f8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/array and data types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/array and data types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Go/array and data types.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,19 +175,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f15f8c3dfe527c5a",
+  "active": "edfa7755b097a7f8",
   "lastOpenFiles": [
-    "Pasted image 20230801230841.png",
-    "Pasted image 20230801230749.png",
-    "Go/Declaration.md",
-    "Go/array and data types.md",
-    "Pasted image 20230801225818.png",
-    "Pasted image 20230801215957.png",
-    "Pasted image 20230801215951.png",
+    "Go/RFC.md",
+    "Pasted image 20230810183621.png",
+    "Pasted image 20230810183447.png",
+    "Json.md",
     "Go/Summarry.md",
+    "Pasted image 20230810182826.png",
+    "Pasted image 20230810182627.png",
+    "Go/array and data types.md",
+    "Go/Declaration.md",
+    "Go/Dependency Injection.md",
     "Go/Functions.md",
     "Go/Pointers.md",
-    "Go/Dependency Injection.md",
+    "Pasted image 20230801215957.png",
+    "Pasted image 20230801215951.png",
+    "Pasted image 20230801230841.png",
+    "Pasted image 20230801230749.png",
+    "Pasted image 20230801225818.png",
     "Untitled.canvas",
     "GO.md",
     "Go",

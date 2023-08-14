@@ -22,7 +22,7 @@ type Book struct {
 }
 ```
 ## Arrays
-predefined array 
+predefined [[array]] 
 ```go
 var books = [5]int =[5]{1,2,3,4,5}
 ```
@@ -39,7 +39,7 @@ index and element at index
 ## Slices
 a window on a underlying array
 variables size up to the size of array
-* Pointer  : indicate the start of the slice
+* Pointer  : indicate the start of the [[slice]]
 * Length : number of elts in the slice
 * Capacity : maximum  number of elts
 ```go
@@ -84,7 +84,7 @@ hash function is used to compute the slot for a key
 
 ## Maps
 implementation of hashtable
-use make to create a map
+use make to create a [[map]]
 ![[Pasted image 20230801225818.png]]
 ```go
 idmap:=map[string]int{"joe":123}
@@ -118,7 +118,7 @@ for key,val :=range idmap{
 }
 ```
 ## Struct
-aggregate data type
+ [[Struct]] aggregate data type
 groupe toghether other objects
 ![[Pasted image 20230801230749.png]]
 ### initialisation

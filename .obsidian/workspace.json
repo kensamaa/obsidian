@@ -37,18 +37,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/array and data types.md",
+                "file": "Go/Functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "edfa7755b097a7f8",
+            "id": "cdabea20acb5960d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Go/Object orientation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -118,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Go/Object orientation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Go/Object orientation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Go/Object orientation.md"
+              }
             }
           }
         ]
@@ -175,25 +183,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "edfa7755b097a7f8",
+  "active": "cdabea20acb5960d",
   "lastOpenFiles": [
-    "Go/RFC.md",
-    "Pasted image 20230810183621.png",
-    "Pasted image 20230810183447.png",
-    "Json.md",
-    "Go/Summarry.md",
-    "Pasted image 20230810182826.png",
-    "Pasted image 20230810182627.png",
-    "Go/array and data types.md",
-    "Go/Declaration.md",
-    "Go/Dependency Injection.md",
+    "Go/Exercices.md",
+    "Go/Object orientation.md",
     "Go/Functions.md",
+    "Go/array and data types.md",
+    "Pasted image 20230812222712.png",
+    "Pasted image 20230812222650.png",
+    "Pasted image 20230812220424.png",
+    "Go/Dependency Injection.md",
+    "Go/Declaration.md",
+    "F4IHsGA5EeiEZRKxXgWFpg_17912270603911e8a2ca5752f6e50088_m3_t2_3.pptx",
+    "Pasted image 20230812204927.png",
+    "Pasted image 20230812204748.png",
+    "Pasted image 20230812203135.png",
+    "Pasted image 20230812202323.png",
+    "Go/Summarry.md",
+    "Pasted image 20230812184306.png",
+    "Pasted image 20230812183347.png",
+    "Pasted image 20230812183226.png",
+    "Go/RFC.md",
+    "Json.md",
     "Go/Pointers.md",
-    "Pasted image 20230801215957.png",
-    "Pasted image 20230801215951.png",
-    "Pasted image 20230801230841.png",
-    "Pasted image 20230801230749.png",
-    "Pasted image 20230801225818.png",
     "Untitled.canvas",
     "GO.md",
     "Go",

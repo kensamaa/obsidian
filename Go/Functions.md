@@ -1,3 +1,4 @@
+[[Exercices#Functions]]
 ```go
 //functions
 func greatuser(){

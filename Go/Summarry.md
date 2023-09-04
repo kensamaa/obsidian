@@ -6,7 +6,8 @@
 [[Dependency Injection]]
 [[RFC]]
 [[Object orientation]]
-
+[[Concurency]]
+[[Exercices]]
 
 ## blocks
 a sequence of declaration and statement within matching brackets {}

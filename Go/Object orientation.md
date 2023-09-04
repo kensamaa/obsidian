@@ -2,6 +2,7 @@
 collection of datafield and [[function]] that shares a well defined responsability
 classes are templates
 contain data fields not data
+[[Exercices#object orientation]]
 ## support for classes
 ### association methods with data
 methode has reciever type that it is associated with 

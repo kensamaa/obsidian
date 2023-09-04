@@ -32,31 +32,23 @@
             }
           },
           {
-            "id": "1c8bc2f0957f69ca",
+            "id": "284d96f4335ca6ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/Functions.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "cdabea20acb5960d",
+            "id": "95d9a4453a633897",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/Object orientation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 300
   },
   "right": {
     "id": "881505964f412768",
@@ -122,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Object orientation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/Object orientation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Go/Object orientation.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,29 +171,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdabea20acb5960d",
+  "active": "284d96f4335ca6ce",
   "lastOpenFiles": [
-    "Go/Exercices.md",
     "Go/Object orientation.md",
+    "Go/RFC.md",
     "Go/Functions.md",
+    "Pasted image 20230812222712 1.png",
     "Go/array and data types.md",
+    "Go/Concurency.md",
+    "Go/Pointers.md",
+    "Go/Exercices.md",
+    "Go/Declaration.md",
     "Pasted image 20230812222712.png",
     "Pasted image 20230812222650.png",
     "Pasted image 20230812220424.png",
-    "Go/Dependency Injection.md",
-    "Go/Declaration.md",
-    "F4IHsGA5EeiEZRKxXgWFpg_17912270603911e8a2ca5752f6e50088_m3_t2_3.pptx",
     "Pasted image 20230812204927.png",
     "Pasted image 20230812204748.png",
     "Pasted image 20230812203135.png",
     "Pasted image 20230812202323.png",
-    "Go/Summarry.md",
     "Pasted image 20230812184306.png",
     "Pasted image 20230812183347.png",
-    "Pasted image 20230812183226.png",
-    "Go/RFC.md",
-    "Json.md",
-    "Go/Pointers.md",
+    "F4IHsGA5EeiEZRKxXgWFpg_17912270603911e8a2ca5752f6e50088_m3_t2_3.pptx",
+    "Go/Summarry.md",
+    "Go/Dependency Injection.md",
     "Untitled.canvas",
     "GO.md",
     "Go",

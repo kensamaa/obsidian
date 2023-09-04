@@ -50,3 +50,4 @@ os.read()
 * fills the byte
 * control the amount read
 os.write()
+[[Exercices#Accessing files]]

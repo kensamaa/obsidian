@@ -11,6 +11,10 @@
 
 ## blocks
 a sequence of declaration and statement within matching brackets {}
+
+
+https://divan.dev/posts/go_concurrency_visualize/
+https://www.velotio.com/engineering-blog/build-a-containerized-microservice-in-golang
 ## printing 
 
 ```go

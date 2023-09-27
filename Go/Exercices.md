@@ -680,3 +680,296 @@ fmt.Println("Invalid command. Available commands: newanimal, query")
 
 }
 ```
+
+
+## concurrency
+<p>Ecrivez un programme pour trier un tableau d'entiers. Le programme doit diviser le tableau en 4 parties, chacune d'entre elles étant triée par
+une goroutine différente. Chaque partition doit étre de taille approximativement égale. Ensuite, la goroutine principale doit fusionner les 4
+sous-réseaux triés en un seul grand tableau trié.
+
+Le programme doit inviter l'utilisateur a saisir une série d'entiers. Chaque goroutine qui trie 4 du tableau doit imprimer le sous-réseau qu'elle
+va trier. Lorsque le tri est terminé, la goroutine principale doit imprimer toute la liste triée.</p>
+```go
+package main
+
+  
+
+import (
+
+    "fmt"
+
+    "sort"
+
+    "strconv"
+
+    "strings"
+
+    "sync"
+
+)
+
+  
+
+func main() {
+
+    fmt.Println("Entrez une série d'entiers séparés par des , :")
+
+    var input string
+
+    fmt.Scanln(&input)
+
+    numbers := parseInput(input)
+
+  
+
+    // Création de la WaitGroup pour synchroniser les goroutines
+
+    var wg sync.WaitGroup
+
+  
+
+    // Diviser le tableau en 4 parties égales
+
+    partitionSize := len(numbers) / 4
+
+    partitions := make([][]int, 4)
+
+  
+
+    for i := 0; i < 4; i++ {
+
+        start := i * partitionSize
+
+        end := start + partitionSize
+
+  
+
+        if i == 3 { // La dernière partition inclut les éléments restants
+
+            end = len(numbers)
+
+        }
+
+  
+
+        partitions[i] = numbers[start:end]
+
+  
+
+        // Créer une goroutine pour trier chaque partition
+
+        wg.Add(1)
+
+        go func(partition []int) {
+
+            defer wg.Done()
+
+            sort.Ints(partition)
+
+            fmt.Println("Partition triée :", partition)
+
+        }(partitions[i])
+
+    }
+
+  
+
+    // Attendez que toutes les goroutines de tri aient terminé
+
+    wg.Wait()
+
+  
+
+    // Fusionner les partitions triées en un seul tableau trié
+
+    sorted := merge(partitions)
+
+  
+
+    // Imprimer le tableau trié final
+
+    fmt.Println("Tableau trié final :", sorted)
+
+}
+
+  
+
+func parseInput(input string) []int {
+
+    var numbers []int
+
+    for _, str := range split(input) {
+
+        num, err := strconv.Atoi(str)
+
+        if err == nil {
+
+            numbers = append(numbers, num)
+
+        }
+
+    }
+
+    return numbers
+
+}
+
+  
+
+func split(input string) []string {
+
+    return strings.Split(input, ",")
+
+}
+
+  
+
+func merge(arrays [][]int) []int {
+
+    // Fusionnez les partitions triées en un seul tableau trié
+
+    var merged []int
+
+  
+
+    for _, arr := range arrays {
+
+        merged = mergeSorted(merged, arr)
+
+    }
+
+  
+
+    return merged
+
+}
+
+  
+
+func mergeSorted(arr1, arr2 []int) []int {
+
+    // Fusionnez deux tableaux triés en un seul tableau trié
+
+    merged := make([]int, 0, len(arr1)+len(arr2))
+
+    i, j := 0, 0
+
+  
+
+    for i < len(arr1) && j < len(arr2) {
+
+        if arr1[i] < arr2[j] {
+
+            merged = append(merged, arr1[i])
+
+            i++
+
+        } else {
+
+            merged = append(merged, arr2[j])
+
+            j++
+
+        }
+
+    }
+
+  
+
+    // Ajoutez les éléments restants, s'il y en a
+
+    merged = append(merged, arr1[i:]...)
+
+    merged = append(merged, arr2[j:]...)
+
+  
+
+    return merged
+
+}
+```
+<p>Mettez en ceuvre le probléme du philosophe au restaurant avec les contraintes/modifications suivantes. 1. Il doit y avoir 5 philosophes partageant des baguettes, avec une baguette entre chaque paire adjacente de philosophes. 2. Chaque philosophe ne doit manger que 3 fois (et non pas dans une boucle infinie comme nous l'avons fait en cours) 3. Les philosophes prennent les baguettes dans n'importe quel ordre, et non pas en commengant par le plus petit (comme nous l'avons fait en cours). 4, Pour manger, un philosophe doit obtenir la permission d'un héte qui s'exécute dans sa propre goroutine. 5. L'héte n'autorise pas plus de deux philosophes a manger en méme temps. 6. Chaque philosophe est numéroté de 14 5. 7. Lorsqu'un philosophe commence a4 manger (aprés avoir obtenu les verrous nécessaires), il imprime “starting to eat number" sur une ligne, ou number est le numéro du philosophe.</p>
+```go
+package main
+
+import (
+    "fmt"
+    "sync"
+)
+const numPhilosophers = 5
+const maxEating = 2
+const numMeals = 3
+var (
+
+    philosophers   [numPhilosophers]int
+
+    philosopherIDs [numPhilosophers]int
+
+    mutexes        [numPhilosophers]sync.Mutex
+
+    host           = make(chan struct{}, maxEating)
+
+)
+func main() {
+
+    for i := 0; i < numPhilosophers; i++ {
+
+        philosopherIDs[i] = i + 1
+
+    }
+
+  
+
+    var wg sync.WaitGroup
+
+    wg.Add(numPhilosophers)
+
+  
+
+    for i := 0; i < numPhilosophers; i++ {
+
+        go dine(i, &wg)
+
+    }
+
+  
+
+    wg.Wait()
+
+}
+func dine(philosopherID int, wg *sync.WaitGroup) {
+
+    for meal := 1; meal <= numMeals; meal++ {
+
+        think(philosopherID)
+
+        eat(philosopherID)
+
+    }
+
+    wg.Done()
+
+}
+func think(philosopherID int) {
+
+    fmt.Printf("Philosopher %d is thinking\n", philosopherID+1)
+
+}
+func eat(philosopherID int) {
+
+    fmt.Printf("Philosopher %d is starting to eat\n", philosopherID+1)
+    host <- struct{}{}
+
+    mutex1 := &mutexes[philosopherID]
+
+    mutex2 := &mutexes[(philosopherID+1)%numPhilosophers]
+    mutex1.Lock()
+    mutex2.Lock()
+    philosophers[philosopherID]++
+    fmt.Printf("Philosopher %d is eating (%d times)\n", philosopherID+1, philosophers[philosopherID])
+    mutex1.Unlock()
+    mutex2.Unlock()
+    <-host
+    fmt.Printf("Philosopher %d is done eating\n", philosopherID+1)
+}
+```

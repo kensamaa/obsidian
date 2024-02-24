@@ -1,0 +1,1 @@
+managed storage via smb prrotocol

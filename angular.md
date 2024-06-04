@@ -29,7 +29,7 @@ Modules are containers for different parts of an application. At the root of eve
     })
     export class AppModule { }
     
-    ```
+```
 
 
 ### Components

@@ -100,14 +100,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sql.md",
+                "file": "azure/virtual machine services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2cc63a939408d86b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aws.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43c8439fd499bae2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Go/Servers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77aaa7f337925a38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Go/architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a29bfca1295b25db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Go/Summarry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cae04a30aedeb0ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Go/RFC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfafc42928a9e16c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "angular.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -173,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sql.md",
+                "file": "angular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sql.md",
+                "file": "angular.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sql.md"
+                "file": "angular.md"
               }
             }
           },
@@ -246,47 +318,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "643203b0ebaba0f1",
+  "active": "dfafc42928a9e16c",
   "lastOpenFiles": [
+    "docApi.md",
     "GIT.md",
-    "Go/array and data types.md",
-    "Ecomerce/wordpress.md",
-    "azure/azure monitor.md",
-    "azure/azure ad connect.md",
-    "Ecomerce/ECom_canva.canvas",
-    "azure/Services.md",
-    "azure/azureSummary.md",
-    "Sql.md",
-    "azure/Network Services.md",
-    "azure/File storage.md",
-    "azure/Container Services.md",
-    "azure/azureAD.md",
-    "Go/Concurency.md",
-    "Go/Declaration.md",
+    "angular.md",
     "azure/virtual machine services.md",
-    "azure/Storage Services.md",
-    "azure/Blob Storage.md",
     "azure/Tenant.md",
     "azure/users.md",
-    "Ecomerce/ENV_Secrets.md",
-    "Ecomerce/nextjs.md",
+    "azure/Storage Services.md",
+    "azure/Network Services.md",
+    "azure/File storage.md",
+    "azure/Groups.md",
+    "azure/Container Services.md",
+    "azure/azureSummary.md",
+    "azure/azureAD.md",
+    "azure/azure monitor.md",
+    "azure/azure ad connect.md",
+    "Go/startup.md",
+    "Go/Declaration.md",
+    "Go/Exercices.md",
+    "Go/architecture.md",
+    "Go/RFC.md",
+    "Go/Servers.md",
+    "Go/Summarry.md",
+    "Aws.md",
+    "Sql.md",
+    "Pasted image 20240225043922.png",
+    "Pasted image 20240225040745.png",
+    "Pasted image 20240225040723.png",
+    "Pasted image 20240225010020.png",
+    "Pasted image 20240225005930.png",
+    "azure/Services.md",
+    "azure/Blob Storage.md",
+    "Ecomerce/ECom_canva.canvas",
     "Ecomerce",
     "Untitled.canvas",
-    "azure/Groups.md",
     "Pasted image 20231006115830.png",
     "Pasted image 20231006115631.png",
     "Pasted image 20231006115511.png",
-    "Go/Summarry.md",
-    "Go/RFC.md",
-    "Go/Pointers.md",
     "azure",
     "Pasted image 20230812222712 1.png",
     "Pasted image 20230812222712.png",
-    "Pasted image 20230812222650.png",
-    "Pasted image 20230812220424.png",
-    "Pasted image 20230812204927.png",
-    "Pasted image 20230812204748.png",
-    "Pasted image 20230812203135.png",
     "F4IHsGA5EeiEZRKxXgWFpg_17912270603911e8a2ca5752f6e50088_m3_t2_3.pptx",
     "Go",
     "Untitled 1"

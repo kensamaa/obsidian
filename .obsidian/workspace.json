@@ -16,7 +16,9 @@
                 "file": "Go/Declaration.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Declaration"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "Go/array and data types.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "array and data types"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "Go/Summarry.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Summarry"
             }
           },
           {
@@ -55,7 +61,9 @@
                   "y": 133,
                   "zoom": 0
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ECom_canva"
             }
           },
           {
@@ -67,7 +75,9 @@
                 "file": "azure/Services.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Services"
             }
           },
           {
@@ -79,107 +89,13 @@
                 "file": "azure/azureSummary.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "5e5d0a91dc133fa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "azure/azureAD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "643203b0ebaba0f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "azure/virtual machine services.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cc63a939408d86b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aws.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43c8439fd499bae2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/Servers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77aaa7f337925a38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a29bfca1295b25db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/Summarry.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cae04a30aedeb0ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/RFC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfafc42928a9e16c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "angular.md",
-                "mode": "preview",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "azureSummary"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -199,7 +115,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -214,7 +132,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -222,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -245,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "angular.md",
+                "file": "interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +175,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for interview"
             }
           },
           {
@@ -262,10 +186,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "angular.md",
+                "file": "interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from interview"
             }
           },
           {
@@ -276,7 +202,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -285,8 +213,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "angular.md"
-              }
+                "file": "interview.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of interview"
             }
           },
           {
@@ -298,15 +228,27 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0e1233a63c907283",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -315,51 +257,53 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfafc42928a9e16c",
+  "active": "501e974310b32230",
   "lastOpenFiles": [
-    "docApi.md",
-    "GIT.md",
-    "angular.md",
+    "azure/azureAD.md",
     "azure/virtual machine services.md",
+    "Aws.md",
+    "Go/Servers.md",
+    "Go/architecture.md",
+    "Go/Summarry.md",
+    "Go/RFC.md",
+    "angular.md",
+    "wpf/cheatsheet.md",
+    "GIT.md",
+    "interview.md",
+    "azure/Services.md",
+    "Ecomerce/ECom_canva.canvas",
+    "Ecomerce/wordpress.md",
+    "Ecomerce/nextjs.md",
+    "Ecomerce/ENV_Secrets.md",
+    "azure/azure ad connect.md",
+    "Sql.md",
+    "docApi.md",
+    "Pasted image 20230801230841.png",
+    "Pasted image 20230801225818.png",
+    "Pasted image 20230801215957.png",
+    "wpf",
+    "Go/startup.md",
+    "Go/array and data types.md",
+    "Go/Concurency.md",
+    "Go/Functions.md",
+    "Go/Exercices.md",
     "azure/Tenant.md",
     "azure/users.md",
     "azure/Storage Services.md",
-    "azure/Network Services.md",
-    "azure/File storage.md",
-    "azure/Groups.md",
-    "azure/Container Services.md",
-    "azure/azureSummary.md",
-    "azure/azureAD.md",
-    "azure/azure monitor.md",
-    "azure/azure ad connect.md",
-    "Go/startup.md",
-    "Go/Declaration.md",
-    "Go/Exercices.md",
-    "Go/architecture.md",
-    "Go/RFC.md",
-    "Go/Servers.md",
-    "Go/Summarry.md",
-    "Aws.md",
-    "Sql.md",
     "Pasted image 20240225043922.png",
     "Pasted image 20240225040745.png",
     "Pasted image 20240225040723.png",
     "Pasted image 20240225010020.png",
     "Pasted image 20240225005930.png",
-    "azure/Services.md",
-    "azure/Blob Storage.md",
-    "Ecomerce/ECom_canva.canvas",
     "Ecomerce",
     "Untitled.canvas",
     "Pasted image 20231006115830.png",
     "Pasted image 20231006115631.png",
-    "Pasted image 20231006115511.png",
     "azure",
-    "Pasted image 20230812222712 1.png",
-    "Pasted image 20230812222712.png",
     "F4IHsGA5EeiEZRKxXgWFpg_17912270603911e8a2ca5752f6e50088_m3_t2_3.pptx",
     "Go",
     "Untitled 1"

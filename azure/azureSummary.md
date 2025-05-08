@@ -2,4 +2,4 @@
 
 [[azureAD]]
 
-[[Services]]
+[[Azure Services]]
